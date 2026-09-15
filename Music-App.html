@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R a bb i t</title>
+    <link rel="icon" type="image/png" href="./pics/آیکون برای سایت.png">
+    <link rel="stylesheet" href="./css/music-player-E2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body onload="showmusics()">
+    <audio src=""></audio>
+    <h1 class="title">موزیک های برتر</h1>
+    
+    <section class="musics">
+        <!-- ! in Js -->
+    </section>
+
+
+    <section class="song-details">
+        <div>
+            <span class="fa-solid fa-forward next"></span>
+            <span class="fa-solid fa-circle-play playbtn"></span>
+            <span class="fa-solid fa-backward previous"></span>
+        </div>
+
+        <div class="cover">
+            <img src="https://i1.sndcdn.com/artworks-000602261089-7n47af-t500x500.jpg" alt="song-cover" class="song-cover">
+        </div>
+
+        <div class="songname">
+            <h4>Where s My Love</h4>
+            <p class="songtitle">SYML</p>
+        </div>
+
+        <div class="duration">
+            <span class="finalTime"></span>
+            <div class="timeline">
+                <input type="range" id="progress" min="0" value="0" step="1">
+            </div>
+            <span class="currentTime"></span>
+        </div>
+
+        <div class="volume-box">
+            <div class="volume-progress">
+                <input type="range" id="volume-bar" min="0" max="100" value="100" step="0">
+            </div>
+            <span class="fa-solid fa-volume volume"></span>
+        </div>
+        <div class="numbersongplayed">
+            <span class="repeat bi bi-shuffle"></span>
+        </div>
+
+    </section>
+
+    <section class="Playlist">
+        <h1>پلی‌لیست</h1>
+
+        <div class="playlistsong">پلی‌لیست خالی است</div>
+    </section>
+
+    <section class="message">
+        <p></p>
+    </section>
+
+    <script src="./app.JS/music-player-E2.js"></script>
+</body>
+</html>
