@@ -3,7 +3,12 @@
     padding: 0;
     margin: 8px;
 }
+@font-face {
+    font-family: 'Vazirmatn';
+    src: local('Vazirmatn') ,url(../font/vazirmatn/Vazirmatn-Bold.ttf);
+}
 body{
+    font-family: 'Vazirmatn', Inter;
     background-color: black;
     color: white;
 }
