@@ -7,10 +7,6 @@ I’ve built a music app with a minimalist design that is easy to use. Its featu
 
 A simple and interactive music player built with HTML, CSS, and JavaScript.
 
-## Preview
-
-![Music App Preview](./screenshot.png)
-
 ## Features
 
 - ▶️ Play and pause songs
